@@ -1,12 +1,11 @@
-package com.example.takeimageapp;
+package com.example.user.takeimageapp;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.ImageView;
 
-import java.io.File;
 import java.util.ArrayList;
 
 public class SinglePhoto extends AppCompatActivity {
@@ -18,7 +17,7 @@ public class SinglePhoto extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_single_photo);
 
-        String imgPath = this.getIntent().getExtras().getString("path");
+        String imgPath = this.getIntent().getExtras().getString("mypath");
         ImageView iv = (ImageView) findViewById(R.id.singleimage);
         BitmapFactory.Options myBitmap = new BitmapFactory.Options();
         myBitmap.inJustDecodeBounds=false;

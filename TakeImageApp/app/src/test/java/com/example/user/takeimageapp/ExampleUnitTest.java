@@ -1,4 +1,4 @@
-package com.example.takeimageapp;
+package com.example.user.takeimageapp;
 
 import org.junit.Test;
 

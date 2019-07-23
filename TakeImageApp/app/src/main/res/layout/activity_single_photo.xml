@@ -4,14 +4,12 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:padding="10dp"
-    android:orientation="vertical" >
-
+    android:orientation="vertical">
     <ImageView
         android:id="@+id/singleimage"
-        android:layout_width="400dp"
-        android:layout_height="400dp"
+        android:layout_width="360dp"
+        android:layout_height="368dp"
         android:layout_gravity="center"
-        android:src="@mipmap/ic_launcher" />
+        android:src="@mipmap/ic_launcher"/>
 
 </LinearLayout>
-
